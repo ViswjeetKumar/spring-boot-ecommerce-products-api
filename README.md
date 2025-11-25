@@ -159,4 +159,3 @@ This project is open-source and free to use.
 If you found this useful, give the repository a **star ⭐ on GitHub**!
 
 ````
-s
