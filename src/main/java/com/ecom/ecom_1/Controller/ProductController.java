@@ -1,14 +1,10 @@
 package com.ecom.ecom_1.Controller;
-
-
 import com.ecom.ecom_1.Models.Product;
 import com.ecom.ecom_1.Service.ProductService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
-
 @RestController
 @RequestMapping("/api")
 public class ProductController {
@@ -64,6 +60,4 @@ public class ProductController {
             return new ResponseEntity<>(HttpStatus.NOT_MODIFIED);
         }
     }
-
-
 }
